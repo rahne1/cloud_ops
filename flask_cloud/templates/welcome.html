@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
+        </ul>
+    </nav>
+    <h1>A website</h1>
+    <div class="content">
+        <h2 id="home">Home</h2>
+        <p>This is a simple website built with HTML.</p>
+        
+        <h2 id="about">About</h2>
+        <p>This website is created to showcase basic HTML structure and content organization.</p>
+    </div>
+</body>
+</html>
